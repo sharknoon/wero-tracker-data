@@ -15,12 +15,12 @@
   ],
   "note": "Expected launch in June 2026",
   "features": {
-    "p2p": { "status": "announced" },
-    "onlinePayments": { "status": "unknown" },
-    "localPayments": { "status": "unknown" }
+    "p2p": "announced",
+    "onlinePayments": "unknown",
+    "localPayments": "unknown"
   },
   "appAvailability": {
-    "weroApp": { "status": "unknown" },
-    "bankingApp": { "status": "unknown" }
+    "weroApp": "unknown",
+    "bankingApp": "unknown"
   }
 }

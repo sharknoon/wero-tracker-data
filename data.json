@@ -1,0 +1,151 @@
+{
+  "lastUpdated": "2025-12-22T23:10:37.474Z",
+  "dataSource": "https://github.com/wero-tracker/wero-tracker-data",
+  "countries": [
+    {
+      "code": "LU",
+      "banks": [
+        {
+          "id": "bil",
+          "name": "Banque Internationale à Luxembourg",
+          "status": "announced",
+          "features": {
+            "p2p": "announced",
+            "onlinePayments": "unknown",
+            "localPayments": "unknown"
+          },
+          "appAvailability": {
+            "weroApp": "unknown",
+            "bankingApp": "unknown"
+          },
+          "lastUpdated": "2025-12-22T23:09:58.105Z",
+          "logo": "logo.svg",
+          "website": "https://www.bil.com",
+          "sources": [
+            {
+              "label": "Zahlservice Wero startet 2026 in Luxemburg - L'essentiel",
+              "url": "https://www.lessentiel.lu/de/story/fuenf-banken-starttermin-fuer-zahlservice-wero-in-luxemburg-steht-103365329"
+            },
+            {
+              "label": "Paiement: 5 banques luxembourgeoises rejoignent le consortium européen EPI - L'essentiel",
+              "url": "https://www.lessentiel.lu/fr/story/banques-la-solution-de-paiement-wero-va-etre-lancee-au-luxembourg-103365304"
+            }
+          ],
+          "note": "Expected launch in June 2026"
+        },
+        {
+          "id": "bgl",
+          "name": "BGL BNP Paribas",
+          "status": "announced",
+          "features": {
+            "p2p": "announced",
+            "onlinePayments": "unknown",
+            "localPayments": "unknown"
+          },
+          "appAvailability": {
+            "weroApp": "unknown",
+            "bankingApp": "unknown"
+          },
+          "lastUpdated": "2025-12-22T23:09:53.292Z",
+          "logo": "logo.svg",
+          "website": "https://www.bgl.lu",
+          "sources": [
+            {
+              "label": "Zahlservice Wero startet 2026 in Luxemburg - L'essentiel",
+              "url": "https://www.lessentiel.lu/de/story/fuenf-banken-starttermin-fuer-zahlservice-wero-in-luxemburg-steht-103365329"
+            },
+            {
+              "label": "Paiement: 5 banques luxembourgeoises rejoignent le consortium européen EPI - L'essentiel",
+              "url": "https://www.lessentiel.lu/fr/story/banques-la-solution-de-paiement-wero-va-etre-lancee-au-luxembourg-103365304"
+            }
+          ],
+          "note": "Expected launch in June 2026"
+        },
+        {
+          "id": "post",
+          "name": "POST Luxembourg",
+          "status": "announced",
+          "features": {
+            "p2p": "announced",
+            "onlinePayments": "unknown",
+            "localPayments": "unknown"
+          },
+          "appAvailability": {
+            "weroApp": "unknown",
+            "bankingApp": "unknown"
+          },
+          "lastUpdated": "2025-12-22T23:10:02.738Z",
+          "logo": "logo.svg",
+          "website": "https://www.post.lu",
+          "sources": [
+            {
+              "label": "Zahlservice Wero startet 2026 in Luxemburg - L'essentiel",
+              "url": "https://www.lessentiel.lu/de/story/fuenf-banken-starttermin-fuer-zahlservice-wero-in-luxemburg-steht-103365329"
+            },
+            {
+              "label": "Paiement: 5 banques luxembourgeoises rejoignent le consortium européen EPI - L'essentiel",
+              "url": "https://www.lessentiel.lu/fr/story/banques-la-solution-de-paiement-wero-va-etre-lancee-au-luxembourg-103365304"
+            }
+          ],
+          "note": "Expected launch in June 2026"
+        },
+        {
+          "id": "raiffeisen",
+          "name": "Raiffeisen",
+          "status": "announced",
+          "features": {
+            "p2p": "announced",
+            "onlinePayments": "unknown",
+            "localPayments": "unknown"
+          },
+          "appAvailability": {
+            "weroApp": "unknown",
+            "bankingApp": "unknown"
+          },
+          "lastUpdated": "2025-12-22T23:10:06.691Z",
+          "logo": "logo.svg",
+          "website": "https://www.raiffeisen.lu",
+          "sources": [
+            {
+              "label": "Zahlservice Wero startet 2026 in Luxemburg - L'essentiel",
+              "url": "https://www.lessentiel.lu/de/story/fuenf-banken-starttermin-fuer-zahlservice-wero-in-luxemburg-steht-103365329"
+            },
+            {
+              "label": "Paiement: 5 banques luxembourgeoises rejoignent le consortium européen EPI - L'essentiel",
+              "url": "https://www.lessentiel.lu/fr/story/banques-la-solution-de-paiement-wero-va-etre-lancee-au-luxembourg-103365304"
+            }
+          ],
+          "note": "Expected launch in June 2026"
+        },
+        {
+          "id": "spuerkeess",
+          "name": "Spuerkeess",
+          "status": "announced",
+          "features": {
+            "p2p": "announced",
+            "onlinePayments": "unknown",
+            "localPayments": "unknown"
+          },
+          "appAvailability": {
+            "weroApp": "unknown",
+            "bankingApp": "unknown"
+          },
+          "lastUpdated": "2025-12-22T23:10:09.942Z",
+          "logo": "logo.svg",
+          "website": "https://www.spuerkeess.lu",
+          "sources": [
+            {
+              "label": "Zahlservice Wero startet 2026 in Luxemburg - L'essentiel",
+              "url": "https://www.lessentiel.lu/de/story/fuenf-banken-starttermin-fuer-zahlservice-wero-in-luxemburg-steht-103365329"
+            },
+            {
+              "label": "Paiement: 5 banques luxembourgeoises rejoignent le consortium européen EPI - L'essentiel",
+              "url": "https://www.lessentiel.lu/fr/story/banques-la-solution-de-paiement-wero-va-etre-lancee-au-luxembourg-103365304"
+            }
+          ],
+          "note": "Expected launch in June 2026"
+        }
+      ]
+    }
+  ]
+}

@@ -13,14 +13,14 @@
       "url": "https://www.lessentiel.lu/fr/story/banques-la-solution-de-paiement-wero-va-etre-lancee-au-luxembourg-103365304"
     }
   ],
-  "note": "Expected launch in 1st of June 2026",
+  "note": "Expected launch in June 2026",
   "features": {
-    "p2p": { "status": "announced" },
-    "onlinePayments": { "status": "unknown" },
-    "localPayments": { "status": "unknown" }
+    "p2p": "announced",
+    "onlinePayments": "unknown",
+    "localPayments": "unknown"
   },
   "appAvailability": {
-    "weroApp": { "status": "unknown" },
-    "bankingApp": { "status": "unknown" }
+    "weroApp": "unknown",
+    "bankingApp": "unknown"
   }
 }
