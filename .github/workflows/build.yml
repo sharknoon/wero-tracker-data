@@ -1,0 +1,22 @@
+name: Build single json file
+
+on:
+  push:
+    branches: [ "main" ]
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v6
+        with:
+          node-version: 24
+      - run: node bundle.js
+      - name: Commit bundled data
+        run: |
+          git config --global user.name 'GitHub Actions Bot'
+          git config --global user.email 'sharknoon@users.noreply.github.com'
+          git commit -am "Automated data update"
+          git push
