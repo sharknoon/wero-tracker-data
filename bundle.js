@@ -8,6 +8,10 @@ import {
 import { join, dirname } from "path";
 import { fileURLToPath } from "url";
 
+const repository = "https://github.com/wero-tracker/wero-tracker-data";
+const rawContentBase =
+  "https://raw.githubusercontent.com/sharknoon/wero-tracker-data/main";
+
 /**
  * Get file modification time as ISO string
  */
@@ -19,7 +23,7 @@ function getLastUpdated(filePath) {
 /**
  * Read and transform a bank's data.json file
  */
-function readBankData(bankDir, bankId) {
+function readBankData(bankDir, bankId, countryCode) {
   const dataPath = join(bankDir, "data.json");
 
   if (!existsSync(dataPath)) {
@@ -50,11 +54,18 @@ function readBankData(bankDir, bankId) {
   };
 
   // Add optional fields if present
-  if (rawData.logo) bank.logo = rawData.logo;
-  if (rawData.website) bank.website = rawData.website;
-  if (rawData.sources && rawData.sources.length > 0)
+  if (rawData.logo) {
+    bank.logo = `${rawContentBase}/data/${countryCode}/${bankId}/${rawData.logo}`;
+  }
+  if (rawData.website) {
+    bank.website = rawData.website;
+  }
+  if (rawData.sources && rawData.sources.length > 0) {
     bank.sources = rawData.sources;
-  if (rawData.note) bank.note = rawData.note;
+  }
+  if (rawData.note) {
+    bank.note = rawData.note;
+  }
 
   return bank;
 }
@@ -70,7 +81,7 @@ function readCountryData(countryDir, countryCode) {
   for (const bankDir of bankDirs) {
     if (bankDir.isDirectory()) {
       const bankPath = join(countryDir, bankDir.name);
-      const bank = readBankData(bankPath, bankDir.name);
+      const bank = readBankData(bankPath, bankDir.name, countryCode);
       if (bank) {
         banks.push(bank);
       }
@@ -116,7 +127,7 @@ function bundleData() {
 
   const weroData = {
     lastUpdated: new Date().toISOString(),
-    dataSource: "https://github.com/wero-tracker/wero-tracker-data",
+    dataSource: repository,
     countries,
   };
 
