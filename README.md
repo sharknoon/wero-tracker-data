@@ -1,2 +1,7 @@
-# wero-tracker-data
-The data repostiory for the wero adoption tracker
+# Data for the Wero Adoption Tracker
+
+This repository contains all the data for the [Wero Adoption Tracker](https://...) ([GitHub](https://github.com/sharknoon/wero-tracker)).
+
+## Legal
+
+All logos are trademarks of their respective companies. Used here for educational and informational purposes only.

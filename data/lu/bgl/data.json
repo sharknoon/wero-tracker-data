@@ -1,0 +1,26 @@
+{
+  "name": "BGL BNP Paribas",
+  "logo": "logo.svg",
+  "website": "https://www.bgl.lu",
+  "status": "announced",
+  "sources": [
+    {
+      "label": "Zahlservice Wero startet 2026 in Luxemburg - L'essentiel",
+      "url": "https://www.lessentiel.lu/de/story/fuenf-banken-starttermin-fuer-zahlservice-wero-in-luxemburg-steht-103365329"
+    },
+    {
+      "label": "Paiement: 5 banques luxembourgeoises rejoignent le consortium européen EPI - L'essentiel",
+      "url": "https://www.lessentiel.lu/fr/story/banques-la-solution-de-paiement-wero-va-etre-lancee-au-luxembourg-103365304"
+    }
+  ],
+  "note": "Expected launch in 1st of June 2026",
+  "features": {
+    "p2p": { "status": "announced" },
+    "onlinePayments": { "status": "unknown" },
+    "localPayments": { "status": "unknown" }
+  },
+  "appAvailability": {
+    "weroApp": { "status": "unknown" },
+    "bankingApp": { "status": "unknown" }
+  }
+}
