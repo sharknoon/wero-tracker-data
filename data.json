@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2025-12-23T12:11:48.230Z",
+  "lastUpdated": "2025-12-23T12:12:33.462Z",
   "dataSource": "https://github.com/wero-tracker/wero-tracker-data",
   "countries": [
     {
@@ -18,7 +18,7 @@
             "weroApp": "unknown",
             "bankingApp": "unknown"
           },
-          "lastUpdated": "2025-12-23T12:11:45.679Z",
+          "lastUpdated": "2025-12-23T12:12:30.971Z",
           "logo": "https://raw.githubusercontent.com/sharknoon/wero-tracker-data/main/data/lu/bil/logo.svg",
           "website": "https://www.bil.com",
           "sources": [
@@ -46,7 +46,7 @@
             "weroApp": "unknown",
             "bankingApp": "unknown"
           },
-          "lastUpdated": "2025-12-23T12:11:45.679Z",
+          "lastUpdated": "2025-12-23T12:12:30.971Z",
           "logo": "https://raw.githubusercontent.com/sharknoon/wero-tracker-data/main/data/lu/bgl/logo.svg",
           "website": "https://www.bgl.lu",
           "sources": [
@@ -74,7 +74,7 @@
             "weroApp": "unknown",
             "bankingApp": "unknown"
           },
-          "lastUpdated": "2025-12-23T12:11:45.679Z",
+          "lastUpdated": "2025-12-23T12:12:30.971Z",
           "logo": "https://raw.githubusercontent.com/sharknoon/wero-tracker-data/main/data/lu/post/logo.svg",
           "website": "https://www.post.lu",
           "sources": [
@@ -102,7 +102,7 @@
             "weroApp": "unknown",
             "bankingApp": "unknown"
           },
-          "lastUpdated": "2025-12-23T12:11:45.679Z",
+          "lastUpdated": "2025-12-23T12:12:30.971Z",
           "logo": "https://raw.githubusercontent.com/sharknoon/wero-tracker-data/main/data/lu/raiffeisen/logo.svg",
           "website": "https://www.raiffeisen.lu",
           "sources": [
@@ -130,7 +130,7 @@
             "weroApp": "unknown",
             "bankingApp": "unknown"
           },
-          "lastUpdated": "2025-12-23T12:11:45.679Z",
+          "lastUpdated": "2025-12-23T12:12:30.971Z",
           "logo": "https://raw.githubusercontent.com/sharknoon/wero-tracker-data/main/data/lu/spuerkeess/logo.svg",
           "website": "https://www.spuerkeess.lu",
           "sources": [
