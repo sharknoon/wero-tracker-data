@@ -1,6 +1,6 @@
 # Data for the Wero Adoption Tracker
 
-This repository contains all the data for the [Wero Adoption Tracker](https://...) ([GitHub](https://github.com/sharknoon/wero-tracker)).
+This repository contains all the data for the [Wero Adoption Tracker](https://werotracker.eu) ([GitHub](https://github.com/sharknoon/wero-tracker)).
 
 ## Legal
 
