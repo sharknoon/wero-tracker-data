@@ -1,3 +1,5 @@
+[![Build single json file](https://github.com/sharknoon/wero-tracker-data/actions/workflows/build.yml/badge.svg)](https://github.com/sharknoon/wero-tracker-data/actions/workflows/build.yml)
+
 # Data for the Wero Adoption Tracker
 
 This repository contains all the data for the [Wero Adoption Tracker](https://werotracker.eu) ([GitHub](https://github.com/sharknoon/wero-tracker)).
