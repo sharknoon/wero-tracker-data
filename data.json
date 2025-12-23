@@ -1,12 +1,12 @@
 {
-  "lastUpdated": "2025-12-23T12:13:14.196Z",
-  "dataSource": "https://github.com/wero-tracker/wero-tracker-data",
+  "lastUpdated": "2025-12-23T12:44:34.941Z",
+  "dataSource": "https://github.com/sharknoon/wero-tracker-data",
   "countries": [
     {
       "code": "LU",
       "banks": [
         {
-          "id": "bil",
+          "id": "lu-bil",
           "name": "Banque Internationale à Luxembourg",
           "status": "announced",
           "features": {
@@ -18,7 +18,7 @@
             "weroApp": "unknown",
             "bankingApp": "unknown"
           },
-          "lastUpdated": "2025-12-23T12:13:11.960Z",
+          "lastUpdated": "2025-12-23T12:44:34.413Z",
           "logo": "https://raw.githubusercontent.com/sharknoon/wero-tracker-data/main/data/lu/bil/logo.svg",
           "website": "https://www.bil.com",
           "sources": [
@@ -34,7 +34,7 @@
           "note": "Expected launch in June 2026"
         },
         {
-          "id": "bgl",
+          "id": "lu-bgl",
           "name": "BGL BNP Paribas",
           "status": "announced",
           "features": {
@@ -46,7 +46,7 @@
             "weroApp": "unknown",
             "bankingApp": "unknown"
           },
-          "lastUpdated": "2025-12-23T12:13:11.960Z",
+          "lastUpdated": "2025-12-23T12:44:34.413Z",
           "logo": "https://raw.githubusercontent.com/sharknoon/wero-tracker-data/main/data/lu/bgl/logo.svg",
           "website": "https://www.bgl.lu",
           "sources": [
@@ -62,7 +62,7 @@
           "note": "Expected launch in June 2026"
         },
         {
-          "id": "post",
+          "id": "lu-post",
           "name": "POST Luxembourg",
           "status": "announced",
           "features": {
@@ -74,7 +74,7 @@
             "weroApp": "unknown",
             "bankingApp": "unknown"
           },
-          "lastUpdated": "2025-12-23T12:13:11.960Z",
+          "lastUpdated": "2025-12-23T12:44:34.413Z",
           "logo": "https://raw.githubusercontent.com/sharknoon/wero-tracker-data/main/data/lu/post/logo.svg",
           "website": "https://www.post.lu",
           "sources": [
@@ -90,7 +90,7 @@
           "note": "Expected launch in June 2026"
         },
         {
-          "id": "raiffeisen",
+          "id": "lu-raiffeisen",
           "name": "Raiffeisen",
           "status": "announced",
           "features": {
@@ -102,7 +102,7 @@
             "weroApp": "unknown",
             "bankingApp": "unknown"
           },
-          "lastUpdated": "2025-12-23T12:13:11.960Z",
+          "lastUpdated": "2025-12-23T12:44:34.413Z",
           "logo": "https://raw.githubusercontent.com/sharknoon/wero-tracker-data/main/data/lu/raiffeisen/logo.svg",
           "website": "https://www.raiffeisen.lu",
           "sources": [
@@ -118,7 +118,7 @@
           "note": "Expected launch in June 2026"
         },
         {
-          "id": "spuerkeess",
+          "id": "lu-spuerkeess",
           "name": "Spuerkeess",
           "status": "announced",
           "features": {
@@ -130,7 +130,7 @@
             "weroApp": "unknown",
             "bankingApp": "unknown"
           },
-          "lastUpdated": "2025-12-23T12:13:11.960Z",
+          "lastUpdated": "2025-12-23T12:44:34.413Z",
           "logo": "https://raw.githubusercontent.com/sharknoon/wero-tracker-data/main/data/lu/spuerkeess/logo.svg",
           "website": "https://www.spuerkeess.lu",
           "sources": [
