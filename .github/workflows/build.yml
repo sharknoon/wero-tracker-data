@@ -1,4 +1,4 @@
-name: Build single json file
+name: Build data.json
 
 on:
   push:
