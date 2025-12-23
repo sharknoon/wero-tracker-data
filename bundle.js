@@ -8,9 +8,9 @@ import {
 import { join, dirname } from "path";
 import { fileURLToPath } from "url";
 
-const repository = "https://github.com/wero-tracker/wero-tracker-data";
-const rawContentBase =
-  "https://raw.githubusercontent.com/sharknoon/wero-tracker-data/main";
+const githubOrg = "sharknoon";
+const githubRepo = "wero-tracker-data";
+const githubRef = "main";
 
 /**
  * Get file modification time as ISO string
@@ -38,7 +38,7 @@ function readBankData(bankDir, bankId, countryCode) {
 
   // Transform to match the Bank interface
   const bank = {
-    id: bankId,
+    id: `${countryCode}-${bankId}`,
     name: rawData.name,
     status: rawData.status,
     features: {
@@ -55,7 +55,7 @@ function readBankData(bankDir, bankId, countryCode) {
 
   // Add optional fields if present
   if (rawData.logo) {
-    bank.logo = `${rawContentBase}/data/${countryCode}/${bankId}/${rawData.logo}`;
+    bank.logo = `https://raw.githubusercontent.com/${githubOrg}/${githubRepo}/${githubRef}/data/${countryCode}/${bankId}/${rawData.logo}`;
   }
   if (rawData.website) {
     bank.website = rawData.website;
@@ -127,7 +127,7 @@ function bundleData() {
 
   const weroData = {
     lastUpdated: new Date().toISOString(),
-    dataSource: repository,
+    dataSource: `https://github.com/${githubOrg}/${githubRepo}`,
     countries,
   };
 
